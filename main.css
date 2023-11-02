@@ -448,7 +448,10 @@
   .challengesAndQuote__CustomerName {
     margin: 15px 0px 0px 0px;
   }
-
+  .challengesAndQuote__CustomerQuote {
+    max-width: 420px;
+    margin-left: 10px;
+  }
   .challengesAndQuote__Customerpicture {
     width: 96px;
     height: 96px;
