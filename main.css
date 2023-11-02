@@ -448,6 +448,12 @@
     width: 96px;
     height: 96px;
   }
+  .popularChallenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .popularChallenges__bookRoomContainer {
     display: flex;
     justify-content: center;
