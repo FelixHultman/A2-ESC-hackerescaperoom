@@ -498,11 +498,8 @@
   }
   .bookOnSite__container {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
     width: 50vw;
-
+    align-items: center;
     margin-bottom: 20px;
   }
 
@@ -523,7 +520,7 @@
   }
   .seeAllChallenges__container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 50vw;
