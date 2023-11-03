@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-body {
-  overflow: hidden;
-}
 .header {
   display: flex;
   background-color: #011827;
