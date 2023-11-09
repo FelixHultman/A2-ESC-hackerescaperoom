@@ -5,12 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 .overlay {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
   z-index: 1;
-  left: 0;
-  top: 0;
   background-color: rgba(255, 255, 255, 0.5);
   animation-name: openMobileMenu;
   animation-duration: 0.3s;
@@ -25,13 +23,12 @@
   top: 0.5%;
   left: 5%;
   width: 90%;
-  height: 1000px;
+  min-height: 700px;
   background-color: #011827;
   z-index: 2;
   justify-content: center;
   animation-name: openMobileMenu2;
   animation-duration: 0.4s;
-  /* animation-timing-function: ease-in; */
 }
 .closeButton {
   width: 37px;
@@ -425,6 +422,7 @@
     font-weight: 700;
     color: white;
     width: 100%;
+    max-width: 600px;
     margin-top: 40px;
   }
   .topNav {
