@@ -281,11 +281,10 @@
   object-fit: cover;
 }
 .bookOnSite__h1 {
-  width: 440px;
   height: 106px;
   font-size: 32px;
   font-weight: 700;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 25px 20px;
   max-width: 450px;
 }
 .bookOnSite__p {
