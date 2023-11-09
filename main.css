@@ -12,6 +12,9 @@
   left: 0;
   top: 0;
   background-color: rgba(255, 255, 255, 0.5);
+  animation-name: openMobileMenu;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
 }
 .overlayHidden {
   display: none;
@@ -26,6 +29,9 @@
   background-color: #011827;
   z-index: 2;
   justify-content: center;
+  animation-name: openMobileMenu2;
+  animation-duration: 0.4s;
+  /* animation-timing-function: ease-in; */
 }
 .closeButton {
   width: 37px;
@@ -616,5 +622,27 @@
   }
   .seeAllChallenges__container {
     max-width: 50%;
+  }
+}
+@keyframes openMobileMenu {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes openMobileMenu2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
