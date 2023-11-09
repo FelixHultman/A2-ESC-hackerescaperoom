@@ -61,11 +61,11 @@
 }
 .companyLogoAndName {
   display: flex;
-  margin-right: 150px;
-  font-size: 24xp;
-  font-family: 700;
+  font-size: 24px;
+  font-weight: 700;
   flex-direction: row;
-  margin: 20px 0px 0px 30px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
 }
 .companyLogoAndName__logo {
   width: 140px;
@@ -79,8 +79,8 @@
   margin-right: 100px;
 }
 .openMenu {
+  display: flex;
   height: 26px;
-  margin: 5px 25px 0px 0px;
 }
 .topNav {
   display: flex;
