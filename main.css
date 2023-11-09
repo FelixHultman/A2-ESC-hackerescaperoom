@@ -4,6 +4,48 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.overlayHidden {
+  display: none;
+}
+.innerOverlay {
+  display: flex;
+  position: fixed;
+  top: 0.5%;
+  left: 5%;
+  width: 90%;
+  height: 1000px;
+  background-color: #011827;
+  z-index: 2;
+  justify-content: center;
+}
+.closeButton {
+  width: 37px;
+  height: 40px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.innerOverlay__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.companyLogoAndName__link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 25px;
+  font-size: 36px;
+  font-weight: 700;
+}
 .header {
   display: flex;
   background-color: #011827;
@@ -34,7 +76,7 @@
   object-fit: cover;
   height: 26px;
   width: 51px;
-  margin: 5px 20px 0px 0px;
+  margin: 5px 25px 0px 0px;
 }
 .topNav {
   display: flex;
