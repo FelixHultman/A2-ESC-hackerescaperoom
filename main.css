@@ -410,7 +410,9 @@
     height: 90px;
     margin-right: 10px;
   }
-
+  .openMenu {
+    display: none;
+  }
   .companyLogoAndName__name {
     font-size: 40px;
     font-weight: 700;
@@ -422,12 +424,11 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     width: 100%;
   }
   .companyLogoAndName__link {
     display: flex;
-
     font-size: 24px;
     font-weight: 700;
     color: #ffffff;
