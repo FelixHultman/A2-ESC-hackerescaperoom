@@ -621,10 +621,10 @@
 }
 @media screen and (min-width: 650px) {
   .bookOnSite__container {
-    max-width: 50%;
+    max-width: 75%;
   }
   .seeAllChallenges__container {
-    max-width: 50%;
+    max-width: 75%;
   }
 }
 @keyframes openMobileMenu {
