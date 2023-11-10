@@ -299,7 +299,7 @@
   color: #ffffff;
   border: none;
   border-radius: 5px;
-  margin: 5px 0px 70px 20px;
+  margin: 15px 0px 70px 20px;
 }
 .seeAllChallenges {
   display: flex;
@@ -334,7 +334,7 @@
   color: #ffffff;
   border: none;
   border-radius: 5px;
-  margin: 5px 0px 70px 20px;
+  margin: 15px 0px 70px 20px;
 }
 .footer {
   height: 566px;
